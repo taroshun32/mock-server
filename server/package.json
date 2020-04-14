@@ -1,10 +1,10 @@
 {
-  "name": "mock-server",
+  "name": "standard-mock-server",
   "version": "0.0.1",
   "scripts": {
-    "start": "cross-env PORT=3001 SERVER=http://localhost:3002 node ./api.js",
-    "development": "cross-env PORT=3001 SERVER=http://localhost:3002 nodemon ./api.js",
-    "development:proxy": "node ./proxy.js",
+    "start": "cross-env PORT=3001 node ./api.js",
+    "development": "cross-env PORT=3001 nodemon ./api.js",
+    "development:proxy": "node ./devonly/dummyserver.js",
     "production": "node ./api.js"
   },
   "devDependencies": {
