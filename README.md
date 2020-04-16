@@ -1,7 +1,7 @@
 # mock-server
 mock-json に従いレスポンスを返却するモックサーバ
 
-## Jsonファイル命名規則(standard-swaggerのCIで実行)
+## Jsonファイル命名規則
 ■ 方針
 - swaggerで定義したAPIのパスをベースとする
 - prefixはメソッド名を付与
